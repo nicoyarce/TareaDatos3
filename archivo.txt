@@ -1,0 +1,3 @@
+001.6424'CC32	978-84-481-4514-9	Joyanes Aguilar, Luis	C: Algoritmos, programacion y estructuras de datos	2005	McGraw-Hill Intercamericana	ALGORITMOS, ESTRUCTURA DE DATOS	15	true
+005.73C123	970-10-058-X	Cairo, Osvaldo	Estructuras de datos	2002	McGraw-Hill	ESTRUCTURAS DE DATOS	12	true
+001.6424'JD386	978-970-26-1190-5	Deitel, Harve y M.	JAVA: como programar	2008	Person Educacion	LENGUAJE DE PROGRAMACION	20	false
