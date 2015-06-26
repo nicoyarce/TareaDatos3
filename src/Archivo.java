@@ -4,9 +4,11 @@ import java.io.*;
 public class Archivo {
 
     HashTableY tabla;
+    HashDouble tablaD;
 
     public Archivo() {
         this.tabla = new HashTableY(131);
+        this.tablaD = new HashDouble(131);
     }
 
     public void insertarLibro(Libro nuevo) {
@@ -135,8 +137,7 @@ public class Archivo {
             while ((linea = br.readLine()) != null) {
                 String[] campos = linea.split("\t");
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
-                
-
+                tablaD.insert(l.transformaCodigo(), l);
             }
         } catch (Exception e) {
             e.printStackTrace();

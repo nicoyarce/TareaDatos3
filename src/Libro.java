@@ -5,8 +5,8 @@ public class Libro {
     int copias;
     boolean estado;
 
-    public Libro() {
-        toString();
+    public Libro(String cod) {
+        codlibro=cod;
     }
 
     public Libro(String codlibro, String codISBN, String autor, String titulo, String anno, String editorial,
