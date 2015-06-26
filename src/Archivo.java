@@ -1,8 +1,13 @@
-package javaapplication1;
 
 import java.io.*;
 
 public class Archivo {
+
+    HashTableY tabla;
+
+    public Archivo() {
+        this.tabla = new HashTableY(131);
+    }
 
     public void insertarLibro(Libro nuevo) {
         try {
@@ -36,28 +41,25 @@ public class Archivo {
         BufferedReader br = null;
 
         try {
-           // Apertura del fichero y creacion de BufferedReader para poder
+            // Apertura del fichero y creacion de BufferedReader para poder
             // hacer una lectura comoda (disponer del metodo readLine()).
             archivo = new File("archivo.txt");
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
-           // Lectura del fichero
+            // Lectura del fichero
             // String linea;
             String linea;
             String codlibro, codISBN, autor, titulo, anno, editorial, materia;
             int copias;
             boolean estado;
             while ((linea = br.readLine()) != null) {
-                String[] campos = linea.split("\t");
-                Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
-                System.out.println(l.transformaCodigo());
-                //System.out.println(toString());
+                System.out.println(linea);
             }
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-           // En el finally cerramos el fichero, para asegurarnos
+            // En el finally cerramos el fichero, para asegurarnos
             // que se cierra tanto si todo va bien como si salta 
             // una excepcion.
             try {
@@ -69,4 +71,46 @@ public class Archivo {
             }
         }
     }
+
+    public void hashingEncadenado() {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("archivo.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            // Lectura del fichero
+            // String linea;
+            String linea;
+            String codlibro, codISBN, autor, titulo, anno, editorial, materia;
+            int copias;
+            boolean estado;
+            while ((linea = br.readLine()) != null) {
+                String[] campos = linea.split("\t");
+                Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
+                Link thelink = new Link(l);
+                tabla.insert(thelink);
+                tabla.displayTable();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // En el finally cerramos el fichero, para asegurarnos
+            // que se cierra tanto si todo va bien como si salta 
+            // una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
+
 }

@@ -1,4 +1,3 @@
-package javaapplication1;
 
 public class Libro {
 
@@ -35,7 +34,7 @@ public class Libro {
     @Override
     public String toString() {
 
-        return "Libro{" + "codlibro=" + codlibro + ", codISBN=" + codISBN + ", autor=" + autor + ", titulo=" + titulo + ", anno=" + anno + ", editorial=" + editorial + ", materia=" + materia + ", copias=" + copias + ", estado=" + estado + '}';
+        return codlibro +" "+ codISBN +" "+ autor +" "+ titulo +" "+ anno +" "+ editorial +" "+ materia +" "+ copias +" "+ estado;
     }
 
 }

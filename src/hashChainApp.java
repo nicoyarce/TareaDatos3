@@ -1,4 +1,4 @@
-package javaapplication1;
+
 
 //hashChain.java
 //demonstrates hash table with separate chaining
