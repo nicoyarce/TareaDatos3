@@ -7,17 +7,17 @@ import java.io.*;
 
 class DataItemX { // (could have more items)
 
-    private int iData; // data item (key)
+    private Libro iData; // data item (key)
     //--------------------------------------------------------------
 
-    public DataItemX(int ii) // constructor
+    public DataItemX(Libro libro) // constructor
     {
-        iData = ii;
+        iData = libro;
     }
 
     //--------------------------------------------------------------
 
-    public int getKey() {
+    public Libro getKey() {
         return iData;
     }
 	//--------------------------------------------------------------
@@ -57,20 +57,22 @@ class HashTableX {
     }
 //-------------------------------------------------------------
 
-    public int hashFunc2(int key) {
+    public int hashFunc2(int key, int i) {
 	//non-zero, less than array size, different from hF1
         //array size must be relatively prime to 5, 4, 3, and 2
-        return 5 - key % 5;
+        return hashFunc1(key)+i*(key%127)%131;
     }
 //-------------------------------------------------------------
 //insert a DataItemX
 
     public void insert(int key, DataItemX item) //(assumes table not full)
     {
+        int i=0;
         int hashVal = hashFunc1(key); // hash the key
-        int stepSize = hashFunc2(key); // get step size
+        int stepSize = hashFunc2(key,i); // get step size
         //until empty cell or -1
         while (hashArray[hashVal] != null && hashArray[hashVal].getKey() != -1) {
+            i++;
             hashVal += stepSize; // add the step
             hashVal %= arraySize; // for wraparound
         }
@@ -80,8 +82,9 @@ class HashTableX {
 
     public DataItemX delete(int key) // delete a DataItemX
     {
+        int i=0;
         int hashVal = hashFunc1(key); // hash the key
-        int stepSize = hashFunc2(key); // get step size
+        int stepSize = hashFunc2(key,i); // get step size
         while (hashArray[hashVal] != null) // until empty cell,
         { // is correct hashVal?
             if (hashArray[hashVal].getKey() == key) {
@@ -89,6 +92,7 @@ class HashTableX {
                 hashArray[hashVal] = nonItem; // delete item
                 return temp; // return item
             }
+            i++;
             hashVal += stepSize; // add the step
             hashVal %= arraySize; // for wraparound
         }
@@ -99,13 +103,15 @@ class HashTableX {
     public DataItemX find(int key) // find item with key
     //(assumes table not full)
     {
+        int i=0;
         int hashVal = hashFunc1(key); // hash the key
-        int stepSize = hashFunc2(key); // get step size
+        int stepSize = hashFunc2(key,i); // get step size
         while (hashArray[hashVal] != null) // until empty cell,
         { // is correct hashVal?
             if (hashArray[hashVal].getKey() == key) {
                 return hashArray[hashVal]; // yes, return item
             }
+            i++;
             hashVal += stepSize; // add the step
             hashVal %= arraySize; // for wraparound
         }

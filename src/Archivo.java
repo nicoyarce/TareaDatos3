@@ -1,3 +1,4 @@
+
 import java.io.*;
 
 public class Archivo {
@@ -95,7 +96,7 @@ public class Archivo {
                 Link thelink = new Link(l);
                 tabla.insert(thelink);
                 tabla.displayTable();
-                
+
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -113,4 +114,43 @@ public class Archivo {
         }
     }
 
+    public void dobleHashD() {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("archivo.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            // Lectura del fichero
+            // String linea;
+            String linea;
+            String codlibro, codISBN, autor, titulo, anno, editorial, materia;
+            int copias;
+            boolean estado;
+            while ((linea = br.readLine()) != null) {
+                String[] campos = linea.split("\t");
+                Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
+                
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // En el finally cerramos el fichero, para asegurarnos
+            // que se cierra tanto si todo va bien como si salta 
+            // una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
 }
