@@ -4,9 +4,9 @@ public class Link {// (could be other items)
     public Link next; // next link in list
     //-------------------------------------------------------------
 
-    public Link(Libro it) // constructor
+    public Link(Libro libro) // constructor
     {
-        iData = it;
+        iData = libro;
     }
 
     //-------------------------------------------------------------

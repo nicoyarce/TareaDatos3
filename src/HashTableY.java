@@ -1,4 +1,3 @@
-
 class HashTableY {
 
     private SortedList[] hashArray; // array of lists

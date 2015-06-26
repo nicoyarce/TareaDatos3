@@ -95,6 +95,7 @@ public class Archivo {
                 Link thelink = new Link(l);
                 tabla.insert(thelink);
                 tabla.displayTable();
+                
             }
         } catch (Exception e) {
             e.printStackTrace();
