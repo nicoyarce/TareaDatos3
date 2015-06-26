@@ -51,7 +51,8 @@ public class Archivo {
             while ((linea = br.readLine()) != null) {
                 String[] campos = linea.split("\t");
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
-                System.out.println(toString());
+                System.out.println(l.transformaCodigo());
+                //System.out.println(toString());
             }
         } catch (Exception e) {
             e.printStackTrace();

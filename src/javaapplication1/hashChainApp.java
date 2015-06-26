@@ -8,17 +8,17 @@ import java.io.*;
 
 class Link { // (could be other items)
 
-    private int iData; // data item
+    private Libro iData; // data item
     public Link next; // next link in list
     //-------------------------------------------------------------
 
-    public Link(int it) // constructor
+    public Link(Libro it) // constructor
     {
         iData = it;
     }
 
     //-------------------------------------------------------------
-    public int getKey() {
+    public Libro getKey() {
         return iData;
     }
 
@@ -43,11 +43,11 @@ class SortedList {
     //-------------------------------------------------------------
     public void insert(Link theLink) // insert link, in order
     {
-        int key = theLink.getKey();
+        long key = theLink.getKey().transformaCodigo();
         Link previous = null; // start at first
         Link current = first;
         //until end of list,
-        while (current != null && key > current.getKey()) { // or current > key,
+        while (current != null && key > current.getKey().transformaCodigo()) { // or current > key,
             previous = current;
             current = current.next; // go to next item
         }
@@ -67,7 +67,7 @@ class SortedList {
         Link previous = null; // start at first
         Link current = first;
         //until end of list,
-        while (current != null && key != current.getKey()) { // or key == current,
+        while (current != null && key != current.getKey().transformaCodigo()) { // or key == current,
             previous = current;
             current = current.next; // go to next link
         }
@@ -86,8 +86,8 @@ class SortedList {
     {
         Link current = first; // start at first
         //until end of list,
-        while (current != null && current.getKey() <= key) { // or key too small,
-            if (current.getKey() == key) // is this the link?
+        while (current != null && current.getKey().transformaCodigo() <= key) { // or key too small,
+            if (current.getKey().transformaCodigo() == key) // is this the link?
             {
                 return current; // found it, return link
             }
@@ -136,7 +136,7 @@ class HashTableY {
     }
 //-------------------------------------------------------------
 
-    public int hashFunc(int key) // hash function
+    public long hashFunc(long key) // hash function
     {
         return key % arraySize;
     }
@@ -144,22 +144,22 @@ class HashTableY {
 
     public void insert(Link theLink) // insert a link
     {
-        int key = theLink.getKey();
-        int hashVal = hashFunc(key); // hash the key
+        long key = theLink.getKey().transformaCodigo();
+        int hashVal = (int)hashFunc(key); // hash the key
         hashArray[hashVal].insert(theLink); // insert at hashVal
     } // end insert()
 //-------------------------------------------------------------
 
     public void delete(int key) // delete a link
     {
-        int hashVal = hashFunc(key); // hash the key
+        int hashVal = (int)hashFunc(key); // hash the key
         hashArray[hashVal].delete(key); // delete link
     } // end delete()
 //-------------------------------------------------------------
 
     public Link find(int key) // find link
     {
-        int hashVal = hashFunc(key); // hash the key
+        int hashVal = (int)hashFunc(key); // hash the key
         Link theLink = hashArray[hashVal].find(key); // get link
         return theLink; // return link
     }
@@ -167,7 +167,7 @@ class HashTableY {
 } // end class HashTableY
 ////////////////////////////////////////////////////////////////
 
-class HashChainApp {
+/*class HashChainApp {
 
     public static void main(String[] args) throws IOException {
         int aKey;
@@ -245,3 +245,4 @@ class HashChainApp {
 	//--------------------------------------------------------------
 } // end class HashChainApp
 ////////////////////////////////////////////////////////////////
+*/

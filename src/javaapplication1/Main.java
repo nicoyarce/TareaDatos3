@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Archivo a = new Archivo();
         a.abrirArchivo();
-        HashTableY hash = new HashTableY(131);
+        //HashTableY hash = new HashTableY(131);
         
     }
 }
