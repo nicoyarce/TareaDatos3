@@ -1,6 +1,5 @@
 package Tarea3;
 
-
 public class Libro {
 
     String codlibro, codISBN, autor, titulo, anno, editorial, materia;
@@ -29,6 +28,25 @@ public class Libro {
         for (int i = 0; i < codlibro.length(); i++) {
             suma = suma + (int) codlibro.charAt(i) * (int) Math.pow(128, exp);
             exp--;
+        }
+        return suma;
+    }
+
+    public static int trunk(long key) {
+        String s=Long.toString(key);
+        char a=s.charAt(0);
+        char b=s.charAt(1);        
+        String ab=""+a+b;
+        int valor=Integer.parseInt(ab);
+        System.out.println(valor);
+        return valor;
+    }
+    
+    public static int pleg(long key){
+        String s=Long.toString(key);
+        int suma=0;
+        for (int i = 0; i < s.length(); i++){      	
+            suma=suma+Character.getNumericValue(s.charAt(i)); 
         }
         return suma;
     }

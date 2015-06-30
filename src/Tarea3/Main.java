@@ -5,7 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Archivo a = new Archivo();
         //a.abrirArchivo();
-        //.hashingEncadenado();
-        //a.dobleHashD();        
+        //a.hashingEncadenado();
+        //a.dobleHashD();  
+        //a.dobleHashE();
+        a.dobleHashF();
     }
 }

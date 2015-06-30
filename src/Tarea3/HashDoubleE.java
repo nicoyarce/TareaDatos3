@@ -32,7 +32,7 @@ public class HashDoubleE {
 //-------------------------------------------------------------
 
     public int hashFunc1(long key) {
-        return (Libro.trunk(key*key))%131;
+        return Libro.trunk(key*key)%131;
     }
 //-------------------------------------------------------------
 

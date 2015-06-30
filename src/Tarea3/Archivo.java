@@ -1,6 +1,5 @@
 package Tarea3;
 
-
 import java.io.*;
 
 public class Archivo {
@@ -161,7 +160,7 @@ public class Archivo {
             }
         }
     }
-    
+
     public void dobleHashE() {
         File archivo = null;
         FileReader fr = null;
@@ -179,7 +178,7 @@ public class Archivo {
             String linea;
             String codlibro, codISBN, autor, titulo, anno, editorial, materia;
             int copias;
-            boolean estado;
+            boolean estado;            
             while ((linea = br.readLine()) != null) {
                 String[] campos = linea.split("\t");
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
@@ -201,7 +200,7 @@ public class Archivo {
             }
         }
     }
-    
+
     public void dobleHashF() {
         File archivo = null;
         FileReader fr = null;

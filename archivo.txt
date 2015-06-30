@@ -5,7 +5,7 @@
 002.445'HFG123	978-84-7897-811-3 	Abalos Bergillos, Rafael	Autocad 2008 Paso A Paso	2007	Ra-Ma Editorial	Autocad	33	true
 004.099'HFG656	978-84-7897-308-8	Barrios Clamestra, Jose	Aprenda Pspice Para Windows	1998	Ra-Ma Editorial	Informática Profesional Varios	12	true
 032.654'JFH63	123-765-234-0	Jonas Morales, Joe	Programacion En C	2000	Santillana	Algoritmo	12	true
-032.445'TTG123	432-754-346-9	Barra Olivares, Daniel	Programacion En C++	2001	Zic-Zac	Algoritmo Y Programacion	3	false
+032.445'TTG123	432-754-346-9	Barra Olivares, Daniel	Programacion En C++	2001	Zig-Zag	Algoritmo Y Programacion	3	false
 012.404'HYR132	436-804-355-7	Barrientos Baquedano, Alejandro	Programacion En JAVA	1999	Cag-Cig	Algoritmo II	5	false
 022.000'HRT132	543-649-745-4	Muñoz Rojas, Hugo	Programacion En C#	1990	Andres Bello	Programacion II	10	true
 032.664'UYT143	432-657-876-4	Perez Sepulveda, Javier	Base De Datos	1994	Oceano	Base De Datos	20	true
@@ -70,5 +70,5 @@
 082.425'GRH125	245-803-244-5	Melian Coihuin, Werner	Excel	2015	Ubb	Computacion	10	true
 081.455'RET144	4356-3463-646	Martinez Flores, Alvaro	Informatica	2000	Udec	Informatica I	19	true
 070.435'HHR345	24-5346-756-3	Calderon Paredes, Cesar	Elige Tu Programa	2006	Uss	Programacion	10	false
-079.245'HYH443	312-453-543-6	Uribe Carcamo, Sebastian	 Programando En C	2007	Oceano	Programacion	8	false
+079.245'HYH443	312-453-543-6	Uribe Carcamo, Sebastian	Programando En C	2007	Oceano	Programacion	8	false
 079.405'NTG455	435-754-755-1	Godoy Saez, Matias	Programando Ej Java 	2008	Pacifico	Programacion En Java	20	true

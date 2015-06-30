@@ -3,7 +3,7 @@ package Tarea3;
 import java.io.*;
 ////////////////////////////////////////////////////////////////
 
-public class HashDoubleF{
+public class HashDoubleF {
 
     private Libro[] hashArray; // array is the hash table
     private int arraySize;
@@ -32,7 +32,7 @@ public class HashDoubleF{
 //-------------------------------------------------------------
 
     public long hashFunc1(long key) {
-        return key % arraySize;
+        return Libro.pleg(key) % 131;
     }
 //-------------------------------------------------------------
 
