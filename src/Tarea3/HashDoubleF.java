@@ -1,18 +1,16 @@
-//hashDouble.java
-//demonstrates hash table with double hashing
-//to run this program: C:>java HashDoubleApp
+package Tarea3;
 
 import java.io.*;
 ////////////////////////////////////////////////////////////////
 
-public class HashDoubleD{
+public class HashDoubleF{
 
     private Libro[] hashArray; // array is the hash table
     private int arraySize;
     private Libro nonItem; // for deleted items
 //-------------------------------------------------------------
 
-    HashDoubleD(int size) // constructor
+    HashDoubleF(int size) // constructor
     {
         arraySize = size;
         hashArray = new Libro[arraySize];

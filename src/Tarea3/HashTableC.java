@@ -1,10 +1,12 @@
-class HashTableY {
+package Tarea3;
+
+class HashTableC {
 
     private SortedList[] hashArray; // array of lists
     private int arraySize;
 //-------------------------------------------------------------
 
-    public HashTableY(int size) // constructor
+    public HashTableC(int size) // constructor
     {
         arraySize = size;
         hashArray = new SortedList[arraySize]; // create array

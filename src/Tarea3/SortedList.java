@@ -1,3 +1,5 @@
+package Tarea3;
+
 class SortedList {
 
     private Link first; // ref to first list item

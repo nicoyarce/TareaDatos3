@@ -1,14 +1,20 @@
+package Tarea3;
+
 
 import java.io.*;
 
 public class Archivo {
 
-    HashTableY tabla;
-    HashDouble tablaD;
+    HashTableC tablaC;
+    HashDoubleD tablaD;
+    HashDoubleE tablaE;
+    HashDoubleF tablaF;
 
     public Archivo() {
-        this.tabla = new HashTableY(131);
-        this.tablaD = new HashDouble(131);
+        this.tablaC = new HashTableC(131);
+        this.tablaD = new HashDoubleD(131);
+        this.tablaE = new HashDoubleE(131);
+        this.tablaF = new HashDoubleF(131);
     }
 
     public void insertarLibro(Libro nuevo) {
@@ -96,8 +102,8 @@ public class Archivo {
                 String[] campos = linea.split("\t");
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
                 Link thelink = new Link(l);
-                tabla.insert(thelink);
-                tabla.displayTable();
+                tablaC.insert(thelink);
+                tablaC.displayTable();
 
             }
         } catch (Exception e) {
@@ -139,6 +145,86 @@ public class Archivo {
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
                 tablaD.insert(l.transformaCodigo(), l);
                 tablaD.displayTable();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // En el finally cerramos el fichero, para asegurarnos
+            // que se cierra tanto si todo va bien como si salta 
+            // una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
+    
+    public void dobleHashE() {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("archivo.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            // Lectura del fichero
+            // String linea;
+            String linea;
+            String codlibro, codISBN, autor, titulo, anno, editorial, materia;
+            int copias;
+            boolean estado;
+            while ((linea = br.readLine()) != null) {
+                String[] campos = linea.split("\t");
+                Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
+                tablaE.insert(l.transformaCodigo(), l);
+                tablaE.displayTable();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // En el finally cerramos el fichero, para asegurarnos
+            // que se cierra tanto si todo va bien como si salta 
+            // una excepcion.
+            try {
+                if (null != fr) {
+                    fr.close();
+                }
+            } catch (Exception e2) {
+                e2.printStackTrace();
+            }
+        }
+    }
+    
+    public void dobleHashF() {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        try {
+            // Apertura del fichero y creacion de BufferedReader para poder
+            // hacer una lectura comoda (disponer del metodo readLine()).
+            archivo = new File("archivo.txt");
+            fr = new FileReader(archivo);
+            br = new BufferedReader(fr);
+
+            // Lectura del fichero
+            // String linea;
+            String linea;
+            String codlibro, codISBN, autor, titulo, anno, editorial, materia;
+            int copias;
+            boolean estado;
+            while ((linea = br.readLine()) != null) {
+                String[] campos = linea.split("\t");
+                Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
+                tablaF.insert(l.transformaCodigo(), l);
+                tablaF.displayTable();
             }
         } catch (Exception e) {
             e.printStackTrace();
