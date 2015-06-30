@@ -3,7 +3,7 @@ package Tarea3;
 import java.io.*;
 ////////////////////////////////////////////////////////////////
 
-public class HashDoubleE{
+public class HashDoubleE {
 
     private Libro[] hashArray; // array is the hash table
     private int arraySize;
@@ -31,8 +31,8 @@ public class HashDoubleE{
     }
 //-------------------------------------------------------------
 
-    public long hashFunc1(long key) {
-        return key % arraySize;
+    public int hashFunc1(long key) {
+        return (Libro.trunk(key*key))%131;
     }
 //-------------------------------------------------------------
 
