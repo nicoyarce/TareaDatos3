@@ -52,12 +52,12 @@ public class HashDouble {
         long hashVal = hashFunc1(key); // hash the key
         long stepSize = hashFunc2(key, i); // get step size
         //until empty cell or -1
-        while (hashArray[(int)hashVal] != null && hashArray[(int)hashVal].transformaCodigo() != -1) {
+        while (hashArray[(int) hashVal] != null && hashArray[(int) hashVal].transformaCodigo() != -1) {
             i++;
             hashVal += stepSize; // add the step
             hashVal %= arraySize; // for wraparound
         }
-        hashArray[(int)hashVal] = item; // insert item
+        hashArray[(int) hashVal] = item; // insert item
     } // end insert()
 //-------------------------------------------------------------
 
@@ -66,11 +66,11 @@ public class HashDouble {
         int i = 0;
         long hashVal = hashFunc1(key); // hash the key
         long stepSize = hashFunc2(key, i); // get step size
-        while (hashArray[(int)hashVal] != null) // until empty cell,
+        while (hashArray[(int) hashVal] != null) // until empty cell,
         { // is correct hashVal?
-            if (hashArray[(int)hashVal].transformaCodigo() == key) {
-                Libro temp = hashArray[(int)hashVal]; // save item
-                hashArray[(int)hashVal] = nonItem; // delete item
+            if (hashArray[(int) hashVal].transformaCodigo() == key) {
+                Libro temp = hashArray[(int) hashVal]; // save item
+                hashArray[(int) hashVal] = nonItem; // delete item
                 return temp; // return item
             }
             i++;
@@ -87,10 +87,10 @@ public class HashDouble {
         int i = 0;
         long hashVal = hashFunc1(key); // hash the key
         long stepSize = hashFunc2(key, i); // get step size
-        while (hashArray[(int)hashVal] != null) // until empty cell,
+        while (hashArray[(int) hashVal] != null) // until empty cell,
         { // is correct hashVal?
-            if (hashArray[(int)hashVal].transformaCodigo() == key) {
-                return hashArray[(int)hashVal]; // yes, return item
+            if (hashArray[(int) hashVal].transformaCodigo() == key) {
+                return hashArray[(int) hashVal]; // yes, return item
             }
             i++;
             hashVal += stepSize; // add the step

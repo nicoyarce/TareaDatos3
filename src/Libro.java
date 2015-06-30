@@ -6,7 +6,7 @@ public class Libro {
     boolean estado;
 
     public Libro(String cod) {
-        codlibro=cod;
+        codlibro = cod;
     }
 
     public Libro(String codlibro, String codISBN, String autor, String titulo, String anno, String editorial,
@@ -34,7 +34,7 @@ public class Libro {
     @Override
     public String toString() {
 
-        return codlibro +" "+ codISBN +" "+ autor +" "+ titulo +" "+ anno +" "+ editorial +" "+ materia +" "+ copias +" "+ estado;
+        return codlibro + " " + codISBN + " " + autor + " " + titulo + " " + anno + " " + editorial + " " + materia + " " + copias + " " + estado;
     }
 
 }
