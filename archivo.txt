@@ -1,76 +1,74 @@
-089001.6424'CC32	978-84-481-4514-9	Joyanes Aguilar, Luis	C: Algoritmos, programacion y estructuras de datos	2005	McGraw-Hill Intercamericana	ALGORITMOS, ESTRUCTURA DE DATOS	
-15	true
-005.73C123	970-10-058-X	Cairo, Osvaldo	Estructuras de datos	2002	McGraw-Hill	ESTRUCTURAS DE DATOS	12	true
-001.6424'JD386	978-970-26-1190-5	Deitel, Harve y M.	JAVA: como programar	2008	Person Educacion	LENGUAJE DE PROGRAMACION	20	false
-001.123'JDD912	9342-123-45-6436-2	Rodrigues Perez,Juan 	Programacion en C	2000		RA-MA EDITORIAL		ALGORITMO Y PROGRAMAVION I	10	TRUE
-002.445'HFG123	978-84-7897-811-3 	ABALOS BERGILLOS, RAFAEL	AUTOCAD 2008 PASO A PASO	2007	RA-MA EDITOR	Autocad		33	true			
-004.099'HFG656	978-84-7897-308-8	BARRIOS CLAMESTRA, JOSE		APRENDA PSPICE PARA WINDOWS		1998		RA-MA EDITORIAL			Informática profesional varios		12	true
-032.654'JFH63	123-765-234-0	Jonas Morales, Joe	programacion en C	2000	santillana	algoritmo	12	true	
-032.445'TTG123	432-754-346-9	Barra Olivares, Daniel	programacion en C++	2001	zic-zac		algoritmo y programacion	3	false
-012.404'HYR132	436-804-355-7	Barrientos Baquedano, Alejandro		programacion en JAVA	1999	cag-cig	algoritmoII	5	false
-022.000'HRT132	543-649-745-4	Muñoz Rojas, Hugo	programacion en C#	1990	andres bello	programacionII	10	true
-032.664'UYT143	432-657-876-4	Perez Sepulveda, Javier	base de datos	1994	oceano	base de datos	20	true
-042.455'YTR153	211-098-432-2	Martinez Flores, Alvaro	estructuras de datos 2001	miguel carrera	watructura de datos	10	true
-052.555'ASW263	356-765-365-1	Soto Vera, Sergio	algoritmos de la programacion	2006	oceano	algoritmos y bases de la prgramacion	10	false	
-062.444'GRS122	232-532-765-3	Parra Alarcon, Juan	algoritmos de la programacion y base de	 datos	2000	olimpo 	algoritmo	20	true
-072.333'HTH124	136-786-234-5	Navarro Vergara, jorge	Algoritmo	1990	las golondrinas	programacionI 59 true
-082.222'JUU125	124-656-876-4	Campos Miranda, Victor	Seguridad informatica	1989	puchacay	informaticaI	10	true
-062.111'IFT126	357-86-4756-F	Toro Carvajal, Nicolas	economia	2001	edit camiroaga	economia	9	false
-072.488'JYT127	345-654-76-85	Ceballos Lopez, Ignacio	Macroeconomia	2002	random	macroeconomia	10	true
-55082.499'TJ12	244-654-644-Y	Gonzalez Poblete, Felipe	estadistica	2003	vivente vives	estadistica y probabilidad	30	true
-010.888'KKK129	432-546-875-K	Gonzalez Olivares, Amanda	programacion en C	2004	graphis	programacion 1	10	false
-011.667'QWE111	234-645-879-A	Escobar Salinas, Marcos	programacion en C--	2005	ubb	programacionII	20	true
-012.455'RET112	25-7689-0-797	gomez ]Pedrero, Jaime	programacion en JAVA	2006	udec	programacion en java	9	false
-013.444'YTR113	547-867-567-H	Palma Moreno, Eduerdo 	lenguajes de programacion	2007	udd	lenguajes de programacionI 10	true
-014.433'OIY121	534-75675-876	Peña Saavedra, Miguel	como promarar en java	2008	uss	java	39	true
-015.777'NJJ113	32554-64543-U	San Martin Veloso, Joaquin	programacion orientada a objetos 1999	rain	programacion orientada a objetos	10	false
-016.999'NFU114	434-546-767-9	Farias puga, Joel	recomendaciones para programar en C 1997	oceano		algoritmo	30	true
-017.977'AAA115	343-6789-65-G	Godoy Saez, Matias	base de datos	1992	pasific	base de datos	10	false
-018.654'BBB115	345-64-35-245	Guerrero Donoso, Santiago	computacion 2000	oceanic		computacionI	10	true
-019.365'CCC222	0435-5435-546	Bustamante Medina, Arnau	programacion en C#	2005	oceano	algoritmo	9	false	
-024.655'DDD333	543-543-768-5	Ortiz Leiva, Eric	Algoritmo	1999	santillana	algoritmoI	10	true
-021.486'EEE432	434-654-098-8	Yañez Valdes, Rafael 	aprendiendo informatica	2010	zic-zac	informaticaI	50	true
-022.978'QQQ654	456-654-987-1	vidal Aguilera, Arturo	aprendiendo java	2011	las golondrinas	java	10	true
-023.987'WWW768	243-567-09872	Salazar Campos, Rayan	aprendiendo a programar	1992	ejercito	programacion	10	false
-024.866'EEE187	324-564-679-9	Fuentes muñoz, Ismael	arquitectura de computadores	2000	android	aquitectura	80	true
-025.568'RRR865	343-543-876-H	Contreras Araya, Mateo	practicando en C	2012	oceano	programacion en c	programacion en c	10	true
-026.765'TTT157	453-35-756-34	Torres Castro, Pablo 	practicando en java	2013	atlantic
-027.498'UUU127	436-878987-23	Castillo Jara, Biel	introduccion a la programacion	2000	pacifico	introduccion a la programacion	50	true
-028.486'III157	3246-657-85-T	Tapia Alvarez, Joel	bioinformatica	2000	latinoamerica	bioinformatica	10	false
-029.877'HYH457	243-536-654-3	Coñuecar Moraleda, Juan	C	2000	latinoamericana	porgramacion	12	true
-030.867'YYY197	345-645-464-4	Chiguay Ruiz, Pascual	C++	2001	norteamerica	algoritmo	10	false
-031.886'ITH156	123-654-345-5	Ulloa Varela, Albert	JAVA 	2002	sudamerica	programacion en java	30	true
-032.987'JFJ876	3342-542-45-6	Ojeda Freire, Louis	computacion	1999	colon	computacionI	40	true
-033.456'JKT108	2344-65-654-F	Santana Andrade, Nicolas redes	1993	prat	redes	55	true
-034.765'KJS971	455-765-345-E	Paredes Carcamo, Julio	todo sobre linux	1994	carrera	sistema operativo	44	true
-035.457'KKD324	213-64-7654-L	Bosque Lara, Oscar	estructuras de datos	1995	colocolo	estructuras de datos	11	true
-036.234'FHJ156	24654-75-43-I	Uribe Soto, Erwin	administracion de servicios web	2000		catolica	administracion	44	true
-037.435'HFF165	546-654-754-P	Alarcon Viveros, Pascual	aplicacion en java	2005	freire	java	12	false
-038.546'HDB176	435-6543-64-E	Larain Calderon, Leonardo	interfaces	2006	rubio	interfaces	16	true
-039.234'RJS165	342-54-7554-5	Solar Ivañi, Trinidad	crear una web desde cero	2007	carrera	computacion	19	true
-040.675'HGF523	325-6456-64-H	Triviño Vergara, Laura	C	2008	copihues	programacion	 en c	10	false
-044.978'GJO723	234-333-555-6	Montt Molina, Josef	JAVA	2009	chile	programacion en java	10	false
-043.756'WED823	111-334-655-6	Jonas Morales, Joe	C#	2000	mis logros	programacionII	10	true
-076.234'ETR923	213-435-654-F	Alarcon Viveros, Pascual	C++	1992	made	programacionIII	33	true
-054.244'HDJ223	213-435-543-2	Farias puga, Joel	C-- 1991	vivo	programacionIII	20	true
-055.424'HDG322	334-543-456-8	Castillo Jara, Biel	programacion orientada a objetos		2000	libros	curso de java	10	false
-045.345'KYF423	124-566-878-9	Uribe Soto, Erwin	base de datos	2000	impress	base de datos	22	true
-016.986'JHY263	432-645-889-6	Godoy Saez, Matias	redes	2001	express	redes	10	false
-000.698'IDX623	435-657-889-L	Martinez Flores, Alvaro	algoritmo y bases de la programacion	1982	olimpo	algoritmo	10	true
-032.543'HKI723	234-564-654-N	Aguilar Peres, Abel	paradigma de la progracion	2003	digital	paradigma de la programacion	90	true
-034.464'JKT153	245-767-978-A	Solar Ivañi, Trinidad	administracion de empresas	2010		santillana	administracion de empresas	10	true
-092.456'KIG463	234-546-867-P	Alarcon Solar, Eugenio	creando programas	2011	vientos	programacion	16	false
-090.677'EYH653	325-342-669-F	Vergara Paredes, Maximo	base de datos y redes	2014	alfa	base de datos	60	true
-098.865'SFR783	242-756-86-99	Lara Uribe, Emil	aprendiendo a programar 2010	omega	programacion	10	false
-097.345'GRH433	432-9O78-42-Q	Calderon Castillo, Klarus	compiladores de lenguaje		beta	1999	lenguaje de programacion	10	true	
-032.786'HTT165	654-876-13-45 	Larain Gonzalez, Bastian	diseño e implementacion de computadores 1999	ieci	diseño	77	true
-094.346'ERF101	124-642-874-3	Gonzalez Ceballos Felipe	interfaces graficas 1998 ico	interfaces graficos	6	false
-080.125'LOU102	353-479-135-6	Ojeda Puga,Vicente	software	2015	icif	computacion	30	true
-089.404'TYY154	246-853-980-3	Paillalef Tecay, Edulio		programacion en lenguajes estructurados 2000	chile	programacion	10	false	
-083.415'SZX154	245-685-346-6	Catepillan Pincol, Lothar	aprendiendo word 2013	2013	mis logros	computacion	10	true
-082.425'GRH125	245-803-244-5	Melian Coihuin, Werner	excel	2015	ubb	computacion	10	true
-081.455'RET144	4356-3463-646	Martinez Flores, Alvaro		informatica basica	2005	udec	informatica	19	true	
-070.435'HHR345	24-5346-756-3	Calderon Paredes, Cesar	elige tu programa	2006	uss	programacion	10	false
-079.245'HYH443	312-453-543-6	Uribe Carcamo, Sebastian programando en C	2007	oceano	programacion	8	false
-079.405'NTG455	435-754-755-1	Godoy Saez, Matias	programando ej java 	2008	pacifico	programacion en java	20	true
-
+﻿09001.644'CC32	978-84-481-4514-9	Joyanes Aguilar, Luis	C: Algoritmos, Programacion Y Estructuras De Datos	2005	Mcgraw-Hill Intercamericana	Algoritmos, Estructura De Datos	15	true
+005.73C123	970-10-058-X	Cairo, Osvaldo	Estructuras De Datos	2002	Mcgraw-Hill	Estructuras De Datos	12	true
+001.6424'JD386	978-970-26-1190-5	Deitel, Harve Y M.	JAVA: Como Programar	2008	Person Educacion	Lenguaje De Programacion	20	false
+001.123'JDD912	9342-123-45-6436-2	Rodrigues Perez,Juan 	Programacion En C	2000	Ra-Ma Editorial	Algoritmo Y Programacion I	10	true
+002.445'HFG123	978-84-7897-811-3 	Abalos Bergillos, Rafael	Autocad 2008 Paso A Paso	2007	Ra-Ma Editorial	Autocad	33	true
+004.099'HFG656	978-84-7897-308-8	Barrios Clamestra, Jose	Aprenda Pspice Para Windows	1998	Ra-Ma Editorial	Informática Profesional Varios	12	true
+032.654'JFH63	123-765-234-0	Jonas Morales, Joe	Programacion En C	2000	Santillana	Algoritmo	12	true
+032.445'TTG123	432-754-346-9	Barra Olivares, Daniel	Programacion En C++	2001	Zic-Zac	Algoritmo Y Programacion	3	false
+012.404'HYR132	436-804-355-7	Barrientos Baquedano, Alejandro	Programacion En JAVA	1999	Cag-Cig	Algoritmo II	5	false
+022.000'HRT132	543-649-745-4	Muñoz Rojas, Hugo	Programacion En C#	1990	Andres Bello	Programacion II	10	true
+032.664'UYT143	432-657-876-4	Perez Sepulveda, Javier	Base De Datos	1994	Oceano	Base De Datos	20	true
+042.455'YTR153	211-098-432-2	Martinez Flores, Alvaro	Estructuras De Datos	2001	Miguel Carrera	Estructura De Datos	10	true
+052.555'ASW263	356-765-365-1	Soto Vera, Sergio	Algoritmos De La Programacion	2006	Oceano	Algoritmos Y Bases De La Prgramacion	10	false
+062.444'GRS122	232-532-765-3	Parra Alarcon, Juan	Algoritmos De La Programacion Y Base De	2000	Olimpo 	Algoritmo	20	true
+072.333'HTH124	136-786-234-5	Navarro Vergara, Jorge	Algoritmo	1990	Las Golondrinas	Programacion I	59	true
+082.222'JUU125	124-656-876-4	Campos Miranda, Victor	Seguridad Informatica	1989	Puchacay	Informaticai	10	true
+062.111'IFT126	357-86-4756-F	Toro Carvajal, Nicolas	Economia	2001	Edit Camiroaga	Economia	9	false
+072.488'JYT127	345-654-76-85	Ceballos Lopez, Ignacio	Macroeconomia	2002	Random	Macroeconomia	10	true
+55082.499'TJ12	244-654-644-Y	Gonzalez Poblete, Felipe	Estadistica	2003	Vivente Vives	Estadistica Y Probabilidad	30	true
+010.888'KKK129	432-546-875-K	Gonzalez Olivares, Amanda	Programacion En C	2004	Graphis	Programacion 1	10	false
+011.667'QWE111	234-645-879-A	Escobar Salinas, Marcos	Programacion En C--	2005	Ubb	Programacion II	20	true
+012.455'RET112	25-7689-0-797	Gomez Pedrero, Jaime	Programacion En JAVA	2006	Udec	Programacion En Java	9	false
+013.444'YTR113	547-867-567-H	Palma Moreno, Eduerdo 	Lenguajes De Programacion	2007	Udd	Lenguajes De Programacioni 	10	true
+014.433'OIY121	534-75675-876	Peña Saavedra, Miguel	Como Promarar En Java	2008	Uss	Java	39	true
+015.777'NJJ113	32554-64543-U	San Martin Veloso, Joaquin	Programacion Orientada A Objetos 	1999	Edit Rain	Programacion Orientada A Objetos	10	false
+016.999'NFU114	434-546-767-9	Farias Puga, Joel	Recomendaciones Para Programar En C 	1997	Oceano	Algoritmo	30	true
+017.977'AAA115	343-6789-65-G	Godoy Saez, Matias	Base De Datos	1992	Pasific	Base De Datos	10	false
+018.654'BBB115	345-64-35-245	Guerrero Donoso, Santiago	Computacion 	2000	Oceanic	Computacion I	10	true
+019.365'CCC222	0435-5435-546	Bustamante Medina, Arnau	Programacion En C#	2005	Oceano	Algoritmo	9	false
+024.655'DDD333	543-543-768-5	Ortiz Leiva, Eric	Algoritmo	1999	Santillana	Algoritmo II	10	true
+021.486'EEE432	434-654-098-8	Yañez Valdes, Rafael 	Aprendiendo Informatica	2010	Zic-Zac	Informatica I	50	true
+022.978'QQQ654	456-654-987-1	Vidal Aguilera, Arturo	Aprendiendo Java	2011	Las Golondrinas	Java	10	true
+023.987'WWW768	243-567-09872	Salazar Campos, Rayan	Aprendiendo A Programar	1992	Ejercito	Programacion	10	false
+024.866'EEE187	324-564-679-9	Fuentes Muñoz, Ismael	Arquitectura De Computadores	2000	Android	Aquitectura	80	true
+025.568'RRR865	343-543-876-H	Contreras Araya, Mateo	Practicando En C	2012	Oceano	Programacion En C	10	true
+026.765'TTT157	453-35-756-34	Torres Castro, Pablo 	Practicando En Java	2013	Atlantic	Java	20	true
+027.498'UUU127	436-878987-23	Castillo Jara, Biel	Introduccion A La Programacion	2000	Pacifico	Introduccion A La Programacion	50	true
+028.486'III157	3246-657-85-T	Tapia Alvarez, Joel	Bioinformatica	2000	Latinoamerica	Bioinformatica	10	false
+029.877'HYH457	243-536-654-3	Coñuecar Moraleda, Juan	C	2000	Latinoamericana	Programacion	12	true
+030.867'YYY197	345-645-464-4	Chiguay Ruiz, Pascual	C++	2001	Norteamerica	Algoritmo	10	false
+031.886'ITH156	123-654-345-5	Ulloa Varela, Albert	Java 	2002	Sudamerica	Programacion En Java	30	true
+032.987'JFJ876	3342-542-45-6	Ojeda Freire, Louis	Computacion	1999	Colon	Computacioni	40	true
+033.456'JKT108	2344-65-654-F	Santana Andrade, Nicolas Redes	Redes	1995	Prat	Redes	55	true
+034.765'KJS971	455-765-345-E	Paredes Carcamo, Julio	Todo Sobre Linux	1994	Carrera	Sistema Operativo	44	true
+035.457'KKD324	213-64-7654-L	Bosque Lara, Oscar	Estructuras De Datos	1995	Colocolo	Estructuras De Datos	11	true
+036.234'FHJ156	24654-75-43-I	Uribe Soto, Erwin	Administracion De Servicios Web	2000	Catolica	Administracion	44	true
+037.435'HFF165	546-654-754-P	Alarcon Viveros, Pascual	Aplicacion En Java	2005	Freire	Java	12	false
+038.546'HDB176	435-6543-64-E	Larain Calderon, Leonardo	Interfaces	2006	Rubio	Interfaces	16	true
+039.234'RJS165	342-54-7554-5	Solar Ivañi, Trinidad	Crear Una Web Desde Cero	2007	Carrera	Computacion	19	true
+040.675'HGF523	325-6456-64-H	Triviño Vergara, Laura	C	2008	Copihues	Programacion En C 	10	false
+044.978'GJO723	234-333-555-6	Montt Molina, Josef	Java	2009	Chile	Programacion En Java	10	false
+043.756'WED823	111-334-655-6	Jonas Morales, Joe	C#	2000	Mis Logros	Programacion II	10	true
+076.234'ETR923	213-435-654-F	Alarcon Viveros, Pascual	C++	1992	Made	Programacion III	33	true
+054.244'HDJ223	213-435-543-2	Farias Puga, Joel	C-- 	1991	Vivo	Programacion III	20	true
+055.424'HDG322	334-543-456-8	Castillo Jara, Biel	Programacion Orientada A Objetos	2000	Libros	Curso De Java	10	true
+045.345'KYF423	124-566-878-9	Uribe Soto, Erwin	Base De Datos	2000	Impress	Base De Datos	22	true
+016.986'JHY263	432-645-889-6	Godoy Saez, Matias	Redes	2001	Express	Redes	10	false
+000.698'IDX623	435-657-889-L	Martinez Flores, Alvaro	Algoritmo Y Bases De La Programacion	1982	Olimpo	Algoritmo	10	true
+032.543'HKI723	234-564-654-N	Aguilar Peres, Abel	Paradigma De La Progracion	2003	Digital	Paradigma De La Programacion	90	true
+034.464'JKT153	245-767-978-A	Solar Ivañi, Trinidad	Administracion De Empresas	2010	Santillana	Administracion De Empresas	10	true
+092.456'KIG463	234-546-867-P	Alarcon Solar, Eugenio	Creando Programas	2011	Vientos	Programacion	16	false
+090.677'EYH653	325-342-669-F	Vergara Paredes, Maximo	Base De Datos Y Redes	2014	Alfa	Base De Datos	60	true
+098.865'SFR783	242-756-86-99	Lara Uribe, Emil	Aprendiendo A Programar 	2010	Omega	Programacion	10	false
+097.345'GRH433	432-9O78-42-Q	Calderon Castillo, Klarus	Compiladores De Lenguaje	1999	Beta	Lenguaje De Programacion	10	true
+032.786'HTT165	654-876-13-45 	Larain Gonzalez, Bastian	Diseño	1999	Ieci	Diseño	77	true
+094.346'ERF101	124-642-874-3	Gonzalez Ceballos Felipe	Interfaces Graficas 	1998	Ico	Interfaces Graficos	6	false
+080.125'LOU102	353-479-135-6	Ojeda Puga,Vicente	Software	2015	Icif	Computacion	30	true
+089.404'TYY154	246-853-980-3	Paillalef Tecay, Edulio	Programacion En Lenguajes Estructurados	2000	Chile	Programacion	10	false
+083.415'SZX154	245-685-346-6	Catepillan Pincol, Lothar	Aprendiendo Word 2013	2013	Mis Logros	Computacion	10	true
+082.425'GRH125	245-803-244-5	Melian Coihuin, Werner	Excel	2015	Ubb	Computacion	10	true
+081.455'RET144	4356-3463-646	Martinez Flores, Alvaro	Informatica	2000	Udec	Informatica I	19	true
+070.435'HHR345	24-5346-756-3	Calderon Paredes, Cesar	Elige Tu Programa	2006	Uss	Programacion	10	false
+079.245'HYH443	312-453-543-6	Uribe Carcamo, Sebastian	 Programando En C	2007	Oceano	Programacion	8	false
+079.405'NTG455	435-754-755-1	Godoy Saez, Matias	Programando Ej Java 	2008	Pacifico	Programacion En Java	20	true

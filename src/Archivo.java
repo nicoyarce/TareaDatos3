@@ -138,6 +138,7 @@ public class Archivo {
                 String[] campos = linea.split("\t");
                 Libro l = new Libro(campos[0], campos[1], campos[2], campos[3], campos[4], campos[5], campos[6], Integer.parseInt(campos[7]), Boolean.parseBoolean(campos[8]));
                 tablaD.insert(l.transformaCodigo(), l);
+                tablaD.displayTable();
             }
         } catch (Exception e) {
             e.printStackTrace();
