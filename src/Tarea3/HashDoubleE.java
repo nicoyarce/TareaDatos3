@@ -31,7 +31,7 @@ public class HashDoubleE {
     }
 //-------------------------------------------------------------
 
-    public int hashFunc1(long key) {
+    public long hashFunc1(long key) {
         return Libro.trunk(key*key)%131;
     }
 //-------------------------------------------------------------
